@@ -4,15 +4,20 @@
       }
 
       body {
-        text-align:center;
         margin: 0;
         margin-bottom: 25px;
         padding: 0;
-        background-color: #f0f0f0;
+        background-color: #fafafa;
         font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
         font-size: 13px;
-        color: #333;
+        color: #fff;
         height: 100%;
+      }
+
+      #Header {
+        background-color: #1464e5;
+        padding: 5% 0 2% 5%;
+        margin: 0;
       }
 
       iframe {
@@ -23,37 +28,51 @@
       .TextHeader {
         width: 75%;
         margin: auto;
+        color: #1464e5;
       }
 
       #player {
         height: 100%;
+        text-align: center;
       }
 
       #lesson-plan {
         height: 100%;
+        text-align: center;
       }
 
-      #title {
+      #Title {
         font-size: 64px;
+        margin: 0;
+      }
+
+      #SectionTitle {
+                width: 75%;
+        margin: auto;
+        color: #1464e5;
       }
 
 </style>
-<h1 align="center" id="Title">Coding Futures</h1>
 
-<div class="TextHeader">
-  <h1>
-    About Us
-  </h1>
-  <h3>
-    Coding Futures is an alternative career path for when college doesn’t make financial sense. This social enterprise aims to prepare recent high school graduates for entry into the software development industry. We do this through education, mentorship and real-world project application. 
-  </h3>
+<div id="Header">
+  <p id="Title">Coding Futures</p>
 </div>
+  <div class="TextHeader">
+    <h1>
+      About Us
+    </h1>
+    <h3>
+      Coding Futures is an alternative career path for when college doesn’t make financial sense. This social enterprise aims to prepare recent high school graduates for entry into the software development industry. We do this through education, mentorship and real-world project application. 
+    </h3>
+  </div>
+</div>
+
 
 <div class="plyr__video-embed" id="player">
     <iframe src="https://www.youtube.com/embed/ducVKTkJ3tI" allowfullscreen allowtransparency allow="autoplay"></iframe>
 </div>
 
-<h1 id="Title">Sample Lesson Plan</h1>
+<h1 id="SectionTitle">Sample Lesson Plan</h1>
 
 <div id="lesson-plan">
   <iframe src="https://docs.google.com/document/d/e/2PACX-1vTgb68fjx6RgC88kA-4XNJNbw7St_gOzO3wNSfbovc90oJgcqFqkZTo4UFbVGAu1dqlaPOuaerg9ULO/pub?embedded=true"></iframe>
